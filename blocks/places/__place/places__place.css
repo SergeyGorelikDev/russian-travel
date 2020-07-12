@@ -1,0 +1,33 @@
+.places__place:last-of-type {
+    padding-bottom: 92px;
+}
+
+@media (min-width: 320px) {
+    .places__place {
+        grid-gap: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .places__place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "header link"
+            "image paragraph1"
+            "image paragraph2";    
+        grid-template-rows: max-content max-content min-content
+    }
+}
+
+@media (min-width: 1024px) {
+    .places__place {
+        grid-gap: 32px 28px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .places__place {
+        grid-gap: 48px 28px;
+    }
+}
