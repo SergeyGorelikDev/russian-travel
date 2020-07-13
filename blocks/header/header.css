@@ -1,16 +1,25 @@
-header {
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 28px 24px 0;
+@media (min-width: 320px) {
+    .header {
+        margin: 0 24px;
+        padding-top: 16px;
     }
 }
 
 @media (min-width: 769px) {
-    header {
-        padding: 28px 48px 0;
+    .header {
+        margin: 0 48px;
+        padding-top: 28px;
+    }
+}
+
+
+@media (min-width: 1184px) {
+    .header {
+        margin: 0;
     }
 }
