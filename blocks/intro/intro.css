@@ -18,12 +18,12 @@
 
 @media (min-width: 1024px) {
     .intro {
-        margin: 0 48px auto;
+        margin: 0 48px;
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1184px) {
     .intro {
-        margin: 0 140px auto;
+        margin: 0 100px auto;
     }
 }

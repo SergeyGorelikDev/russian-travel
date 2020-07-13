@@ -11,8 +11,8 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1184px) {
     .lead {
-        margin: 0 140px auto;
+        margin: 0 100px auto;
     }
 }

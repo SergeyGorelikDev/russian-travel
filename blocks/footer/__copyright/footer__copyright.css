@@ -10,7 +10,7 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .footer__copyright {
         line-height: 1.1;
     }
