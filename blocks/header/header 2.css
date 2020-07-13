@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 320px) {
+    .header {
+        margin: 0 24px;
+        padding-top: 16px;
+    }
+}
+
+@media (min-width: 769px) {
+    .header {
+        margin: 0 48px;
+        padding-top: 28px;
+    }
+}
+
+
+@media (min-width: 1184px) {
+    .header {
+        margin: 0;
+    }
+}

@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .places {
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .places {
+        margin: 0 48px auto;
+    }
+}
+
+@media (min-width: 1184px) {
+    .places {
+        margin: 0 100px 0 ;
+    }
+}
